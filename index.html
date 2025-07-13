@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderCanada – Travel Blog</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!--  <link id="css" rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    
+    <!--Header Section-->
+    <header>
+            <h1>WanderCanada</h1>
+            <div class="navWrapper">
+            <button id="navBtn">&#9776;</button>
+
+    <!--Navigation Bar-->
+            <nav id="navMenu">
+                <ul>
+                    <li id="homeNavLink"><a href="#home">Home</a></li>
+                    <li><a href="#places">Top Picks</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="home" class="heroBanner">
+        <img src="assets/mountain-4331689_1280.jpg" alt="Alberta Hidden Gem" class="hero-image"/>
+        <div class="hero-content">
+            <h2>Discover the Hidden Gems of Alberta</h2>
+            <p>A curated travel blog guiding you to the most unforgettable places in Canada.</p>
+            <a href="#places" class="btn-hero">Top Picks</a>
+        </div>
+    </section>
+    
+    <!-- Content Section -->
+    <section class="container">
+        <h2>Why Alberta?</h2>
+        <p>From turquoise glacial lakes to towering mountain ranges, Alberta offers an unforgettable experience for every traveler. Let us take you through the gems you can’t miss.</p>
+    </section>
+
+    <!-- Card Section -->
+    <section class="container" id="places">
+        <h2>Top Places to Visit</h2>
+        <div class="flex-container">
+            
+            <div class="card">
+            <img src="https://images.unsplash.com/photo-1571838279542-c2b7c7e11b46?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lake Louise">
+                <h3>Lake Louise</h3>
+                <p>Famous for its turquoise water and picturesque mountain backdrop.</p>
+            </div>
+        
+            <div class="card">
+            <img src="https://images.unsplash.com/photo-1581259021841-a16d7c2a777d?q=80&w=1457&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banff">
+                <h3>Banff National Park</h3>
+                <p>A stunning destination for nature lovers and adventure seekers.</p>
+            </div>
+        
+            <div class="card">
+            <img src="https://images.unsplash.com/photo-1482966930838-981d999b8a0d?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jasper SkyTram">
+                <h3>Jasper SkyTram</h3>
+                <p>Catch an amazing view of the Canadian Rockies from above.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Embedded Video -->
+    <section class="container" id="video">
+        <h2>Alberta from Above</h2>
+        <div class="videocontainer">
+        <iframe width="736" height="414" src="https://www.youtube.com/embed/ThFCg0tBDck" title="(Alberta Travel Video) Canada&#39;s Alberta" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </section>
+
+    <!-- Footer -->
+        <footer class="site-footer">
+            <p>Contact us at <a href="mailto:wandercanada@gmail.com">wandercanada@gmail.com</a></p>
+            <p>&copy; 2025 P-Huong Le | All Rights Reserved</p>
+        </footer>
+        <script src="main.js"></script>
+
+</body>
+</html>
